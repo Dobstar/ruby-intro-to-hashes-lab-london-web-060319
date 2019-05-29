@@ -17,14 +17,13 @@ end
 
 def monopoly_with_second_tier
 	monopoly = {
-	  :railroads => {}
-	}
-	
-	  monopoly[:pieces] = 4
-	  monopoly[:names] = {}
-	  monopoly[:rent_in_dollars] = {}
+	  :railroads = {
+	:pieces => 4,
+	:names => {},
+	:rent_in_dollars => {}
+	  }
 	  
-	  puts monopoly 
+	 monopoly 
 end
 
 def monopoly_with_third_tier
